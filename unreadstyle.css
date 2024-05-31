@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.line {
+  height: 20px;
+  width: 1px;
+  background-color: white;
+}
+.intro-section {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), black 85%),
+    url(/images/Rtud.jpeg);
+  background-position-y: 78%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  height: 80px;
+  padding-top: 35px;
+}
+.unread-logo {
+  width: 134px;
+  height: 20px;
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+input {
+  border: none;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.3;
+  padding-left: 10px;
+}
+.sicon {
+  color: white;
+  opacity: 0.5;
+}
+.unread-logo {
+  margin-left: 90px;
+}
+
+.nav-rigth {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-rigth {
+  color: white;
+}
+.nav-rigth h5 {
+  opacity: 0.3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.nav-rigth h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.nav-rigth button {
+  border-radius: 30px;
+  padding: 8px 18px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.fa-square-facebook:hover {
+  color: red;
+}
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+.fa-square-twitter:hover {
+  color: rgb(47, 255, 0);
+}
+.fa-linkedin-in:hover {
+  color: rgb(0, 4, 255);
+}
+.intro-section2 {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 80px;
+}
+.maintitle {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.maintitle span {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+.maintitle h1 {
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  font-weight: 900;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintitle .title {
+  color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+}
+.intro-section2 img {
+  width: 372px;
+  height: 372px;
+  border-radius: 30px;
+}
+.enhmunkh {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.enhtext {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+.enhmunkh h5 {
+  color: grey;
+  opacity: 0.8;
+}
+.enhmunkh h6 {
+  color: white;
+  list-style: none;
+}
+.enhmunkh img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
