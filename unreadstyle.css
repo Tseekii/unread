@@ -10,7 +10,7 @@
 .intro-section {
   background-image: linear-gradient(rgba(255, 255, 255, 0.3), black 85%),
     url(/images/Rtud.jpeg);
-  background-position-y: 78%;
+  background-position: 78%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -170,7 +170,69 @@ input {
   width: 50px;
   border-radius: 50%;
 }
-.news {
-  width: 181px;
-  height: 288px;
+.box {
+  width: 320px;
+  height: 320px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box1 {
+  background-image: url("./images/zolboo.jpeg");
+}
+.box2 {
+  background-image: url("./images/ubcab.jpeg");
+}
+.box3 {
+  background-image: url("./images/zaluus.png");
+}
+.box4 {
+  background-image: url("./images/toglolt.jpeg");
+}
+.box5 {
+  background-image: url("./images/about\ book.png");
+}
+.box6 {
+  background-image: url("./images/shaltgaan7.png");
+}
+.box7 {
+  background-image: url("./images/hoslol8.png");
+}
+.container h4 {
+  color: white;
+  font-size: 1.62rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin: 3rem 0 2.8rem 0;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dot-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dot {
+  border-radius: 50%;
+  background-color: #0078f6;
+  width: 8px;
+  height: 8px;
+}
+.dot-box span {
+  color: white;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: -350px;
+}
+.section2 {
+  display: flex;
+  gap: 20px;
 }
