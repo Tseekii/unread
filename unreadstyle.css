@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #eeeeee;
+}
 .line {
   height: 20px;
   width: 1px;
@@ -266,4 +269,140 @@ input {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 70px;
+}
+.oyu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.oyutext {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+.oyu span {
+  color: grey;
+  opacity: 0.8;
+}
+.oyu a {
+  list-style: none;
+}
+.oyu img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.section3 {
+  width: 80%;
+  margin: 40px auto;
+}
+.section3-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.section3-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.dot-box1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.content-right {
+  background-color: white;
+  width: 739px;
+  border-radius: 20px 0 20px 20px;
+}
+.content-left {
+  background-color: white;
+  width: 739px;
+  border-radius: 0px 20px 20px 20px;
+}
+.content-article {
+}
+.content-article h3 {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.content img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 400px 40px 400px;
+  grid-template-rows: 250px 250px 250px 250px;
+  /* width: 600px;
+  height: 420px;
+  position: relative; */
+}
+
+.grid div {
+  /* height: 100px; */
+}
+
+.grid-box1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  /* width: 300px;
+  height: 420px; */
+
+  border: 2px solid black;
+}
+.grid-box2 {
+  grid-column: ;
+  /* width: 150px;
+  height: 220px; */
+
+  border: 2px solid rgb(250, 3, 3);
+}
+.grid-box3 {
+  /* width: 150px; */
+  /* height: 220px; */
+
+  border: 2px solid rebeccapurple;
+}
+.grid-box4 {
+  /* width: 150px; */
+  /* height: 200px; */
+
+  border: 2px solid rgb(3, 3, 250);
+}
+.grid-box5 {
+  /* width: 150px; */
+  /* height: 200px; */
+
+  border: 2px solid pink;
+}
+.grid-box6 {
+  /* width: 150px;
+  height: 220px; */
+
+  border: 2px solid yellow;
+}
+.grid-box7 {
+  /* width: 150px;
+  height: 220px; */
+  border: 2px solid rgb(118, 250, 3);
 }
