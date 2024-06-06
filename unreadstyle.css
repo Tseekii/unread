@@ -351,58 +351,88 @@ input {
 }
 .grid {
   display: grid;
-  grid-template-columns: 400px 40px 400px;
-  grid-template-rows: 250px 250px 250px 250px;
-  /* width: 600px;
-  height: 420px;
-  position: relative; */
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 400px 80px 400px;
+  gap: 20px;
+}
+.section4 {
+  width: 80%;
+  margin: auto;
 }
 
 .grid div {
-  /* height: 100px; */
 }
 
 .grid-box1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
-  /* width: 300px;
-  height: 420px; */
-
   border: 2px solid black;
+  background-image: url(./images/adapt.jpeg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: ;
+  justify-content: end;
 }
 .grid-box2 {
-  grid-column: ;
-  /* width: 150px;
-  height: 220px; */
-
   border: 2px solid rgb(250, 3, 3);
+  background-image: url(./images/c.jpeg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .grid-box3 {
-  /* width: 150px; */
-  /* height: 220px; */
-
   border: 2px solid rebeccapurple;
+  background-image: url(./images/dorvol.png);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .grid-box4 {
-  /* width: 150px; */
-  /* height: 200px; */
-
   border: 2px solid rgb(3, 3, 250);
+  border: 2px solid rebeccapurple;
+  background-image: url(./images/soronzonbold.jpeg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .grid-box5 {
-  /* width: 150px; */
-  /* height: 200px; */
-
   border: 2px solid pink;
+  background-image: url(./images/10book.jpeg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .grid-box6 {
-  /* width: 150px;
-  height: 220px; */
-
   border: 2px solid yellow;
+  grid-column: 3 / 1 span;
+  grid-row: 2 / 2 span;
+  background-image: url(./images/msc.jpeg);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .grid-box7 {
-  /* width: 150px;
-  height: 220px; */
+  grid-column: 4 / 1span;
+  grid-row: 2 / 2 span;
   border: 2px solid rgb(118, 250, 3);
+  background-image: url(./images/hulan.png);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-opacity {
+  width: 600px;
+  height: 80px;
+
+  backdrop-filter: blur(4px);
 }
