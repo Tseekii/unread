@@ -360,22 +360,19 @@ input {
   margin: auto;
 }
 
-.grid div {
-}
-
 .grid-box1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
   border: 2px solid black;
   background-image: url(./images/adapt.jpeg);
-  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  align-items: ;
   justify-content: end;
+  align-items: center;
+  border-radius: 30px;
 }
 .grid-box2 {
   border: 2px solid rgb(250, 3, 3);
@@ -431,8 +428,62 @@ input {
   background-position: center;
 }
 .grid-opacity {
-  width: 600px;
-  height: 80px;
-
+  width: 100%;
   backdrop-filter: blur(4px);
+  border-radius: 20px;
+}
+.grid-opacity h3,
+h4 {
+  color: white;
+}
+.grid-opacity h4 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.grid-opacity h3 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+.button-1 {
+  background-color: #66566b;
+  border-radius: 3px;
+  color: #eeeeee;
+  width: 55px;
+  font-size: 13px;
+  margin-left: 500px;
+  text-align: center;
+  position: relative;
+  top: -8px;
+}
+.grid-opacity {
+  width: 100%;
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+}
+.grid-opacity h3,
+h4 {
+  color: white;
+}
+.grid-opacity h4 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.grid-opacity h3 {
+  font-family: "SF Display", sans-serif;
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+.button-1 {
+  background-color: #66566b;
+  border-radius: 3px;
+  color: #eeeeee;
+  width: 55px;
+  font-size: 13px;
+  margin-left: 500px;
+  text-align: center;
+  position: relative;
+  top: -8px;
 }
